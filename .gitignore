@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models / large data
+*.pt
+*.pth
+*.h5
+*.ckpt
+data/raw/
+data/processed/
+
+# Secrets
+.env
+*.key
+credentials.json
